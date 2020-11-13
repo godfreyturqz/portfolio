@@ -1,3 +1,10 @@
+a{
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+a:hover{
+    color: #FFF;
+}
 .projects-header{
     color: #FFF;
     padding: var(--container-padding);
@@ -6,20 +13,30 @@
 .project{
     background: var(--container-bg);
     padding: 0px;
-    margin: 5px var(--container-margin);
+    margin: 20px var(--container-margin);
     border-radius: var(--border-radius);
     max-width: var(--container-max-width);
+    border-top: 5px solid var(--text-secondary);
 }
-.project .project-header{
+.project:hover{
+    border-top: 5px solid var(--text-primary);
+    transition: all .4s ease-in-out;
+}
+.project .project-header, .project .project-footer{
     padding: var(--container-padding);
 }
 .project .project-header h4{
     color: var(--text-secondary);
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
-.project .project-header p{
-    color: #74AAB0;
+.project .project-header p, .project .project-footer p{
+    color: var(--text-secondary);
+    padding-bottom: 20px;
 }
 .project img{
     width: 100%;
+}
+.project .project-footer p{
+    color: #74AAB0;
+    padding-bottom: 20px;
 }

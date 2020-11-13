@@ -1,7 +1,6 @@
 import React from 'react'
 import './styles.css'
 import { projectData } from "./data";
-import asd from "../images/001/2.png";
 
 function Projects() {
     return (
@@ -10,12 +9,23 @@ function Projects() {
             {
                 projectData.map( project => 
                 
-                    <div className="project">
+                    <div className="project" key={project.id}>
                         <div className="project-header">
-                            <h4>{project.title}</h4>
+                            <h4><a href={project.link}>{project.title}</a></h4>
                             <p>{project.description}</p>
+                            
+                            <p>
+                                LIVE DEMO: 
+                                <a href={project.link}> {project.link}</a>
+                            </p>
                         </div>
-                        <img src={asd} alt="project"/>
+                        <a href={project.link}>
+                            <img src={project.image} alt="project"/>
+                        </a>
+                        <div className="project-footer">
+                            <p>{project.techStack}</p>
+                        </div>
+                        
                     </div>
                 )
             }
