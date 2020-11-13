@@ -1,0 +1,17 @@
+.header{
+    background: var(--container-bg);
+    padding: var(--container-padding);
+    margin: 5px var(--container-margin);
+    border-radius: var(--border-radius);
+    max-width: var(--container-max-width);
+}
+
+.header h1{
+    color: var(--text-primary);
+    padding-bottom: 20px;
+}
+
+.header p{
+    color: var(--text-secondary);
+    padding-bottom: 20px;
+}

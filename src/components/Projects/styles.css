@@ -1,0 +1,25 @@
+.projects-header{
+    color: #FFF;
+    padding: var(--container-padding);
+    font-size: 24px;
+}
+.project{
+    background: var(--container-bg);
+    padding: 0px;
+    margin: 5px var(--container-margin);
+    border-radius: var(--border-radius);
+    max-width: var(--container-max-width);
+}
+.project .project-header{
+    padding: var(--container-padding);
+}
+.project .project-header h4{
+    color: var(--text-secondary);
+    padding-bottom: 10px;
+}
+.project .project-header p{
+    color: #74AAB0;
+}
+.project img{
+    width: 100%;
+}

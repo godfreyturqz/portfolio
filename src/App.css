@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    background:#13293D;
+}
+
+:root {
+    --container-bg: #204566;
+    --container-padding: 20px;
+    --container-margin: 12px;
+    --text-primary: #63C132;
+    --text-secondary: #BFD8DB;
+    --border-radius: 5px;
+    --container-max-width: 550px;
+}
+.app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+}
+@media screen and (min-width: 768px){
+    .app{
+        display: grid;
+        grid-template-areas: 
+        "dp header"
+        "contact projects"
+        ;
+        grid-template-columns: 1fr 2fr;
+        padding: 20px;
+    }
+    .dp{
+        grid-area: dp;
+    }
+    .header{
+        grid-area: header;
+    }
+    .contact{
+        grid-area: contact;
+        position: sticky;
+        top: 20px;
+    }
+    .projects{
+        grid-area: projects;
+    }
+}

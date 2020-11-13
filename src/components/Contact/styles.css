@@ -1,0 +1,55 @@
+.contact{
+    background: var(--container-bg);
+    padding: var(--container-padding);
+    margin: 5px var(--container-margin);
+    border-radius: var(--border-radius);
+    width: var(--container-max-width);
+}
+@media screen and (min-width: 768px){
+    .contact{
+        /* same width with dp container */
+        width: 250px;
+        height: max-content;
+    }
+}
+.contact h4{
+    color: var(--text-primary);
+    padding-bottom: 5px;
+}
+.contact p{
+    color: var(--text-secondary);
+    padding-bottom: 15px;
+}
+.contact p a{
+    color: var(--text-secondary);
+}
+.contact p a:hover{
+    color: #FFF;
+}
+a{
+    text-decoration: none;
+}
+.github{
+    padding: 10px;
+    margin-top: 10px;
+    background: #157A6E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius);
+}
+.github:hover{
+    background: #105c53;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.github h4{
+    color: var(--text-secondary);
+    padding-right: 15px;
+}
+.github h4:hover{
+    color: #FFF;
+}
+.github span img{
+    width: 30px;
+}
