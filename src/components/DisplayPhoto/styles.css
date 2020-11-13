@@ -1,15 +1,16 @@
-.display-photo {
-    background: var(--container-bg);
+.photo {
+    /* background: var(--container-bg); */
     padding: var(--container-padding);
     margin: 5px var(--container-margin);
     border-radius: var(--border-radius);
-    width: var(--container-max-width);
+    /* width: var(--container-max-width); */
+    width: 250px;
 }
-.display-photo img{
+.photo img{
     width: 100%;
 }
 @media screen and (min-width: 768px){
-    .display-photo{
+    .photo{
         /* same width with contact container */
         width: 250px;
     }
