@@ -23,20 +23,21 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 @media screen and (min-width: 768px){
     .app{
         display: grid;
         grid-template-areas: 
-        "dp header"
+        "photo header"
         "contact projects"
+        "footer footer"
         ;
-        grid-template-columns: 1fr 2fr;
-        padding: 20px;
+        justify-content: stretch;
     }
-    .dp{
-        grid-area: dp;
+    .photo{
+        grid-area: photo;
+        justify-self: end;
     }
     .header{
         grid-area: header;
@@ -45,8 +46,12 @@ body {
         grid-area: contact;
         position: sticky;
         top: 20px;
+        justify-self: end;
     }
     .projects{
         grid-area: projects;
+    }
+    .footer{
+        grid-area: footer;
     }
 }
