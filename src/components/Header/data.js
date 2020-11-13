@@ -1,6 +1,6 @@
 export const headerData = {
     heading: 'Hi! I\'m Godfrey Turqueza',
-    first: 'I\'m a self-taught programmer and a life-long learner. I\'m an Electrical Engineer by profession with almost 5 years in high-rise construction but found my passion in web development.',
-    second: 'My current skill set are the following:',
-    third: 'HTML, CSS, Bootstrap, JavaScript, jQuery, ReactJS, Redux, NodeJS, Express, MongoDB, Vue, Laravel, PHP, SQL'
+    first: 'Self-taught Programmer | Electrical Engineer',
+    second: 'I\'m currently looking for new opportunities in Web Development. With an engineering background, one of my strengths are solving complex math, logic and algorithm problems.',
+    third: ' My current skill set are the following: HTML, CSS, Bootstrap, JavaScript, jQuery, React, Redux, Node, Express, MongoDB, Vue, Laravel, PHP, SQL.'
 }

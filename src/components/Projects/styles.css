@@ -6,7 +6,7 @@ a:hover{
     color: #FFF;
 }
 .projects-header{
-    color: #FFF;
+    color: var(--text-secondary);
     padding: var(--container-padding);
     font-size: 24px;
 }

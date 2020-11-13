@@ -10,8 +10,14 @@
     color: var(--text-primary);
     padding-bottom: 20px;
 }
-
-.header p{
+.header h3{
     color: var(--text-secondary);
     padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.header p{
+    color: #FFF;
+    padding-bottom: 20px;
+    line-height: 1.5;
 }

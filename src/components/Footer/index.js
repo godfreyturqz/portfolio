@@ -4,7 +4,7 @@ import './styles.css'
 function Footer() {
     return (
         <div className="footer">
-            Copyright 2020 All rights reserved.
+            Copyright 2020 Godfrey Turqueza
         </div>
     )
 }

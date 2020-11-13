@@ -5,8 +5,8 @@ import { headerData } from "./data";
 function Header() {
     return (
         <div className="header">
+            <h3>{headerData.first}</h3>
             <h1>{headerData.heading}</h1>
-            <p>{headerData.first}</p>
             <p>{headerData.second}</p>
             <p>{headerData.third}</p>
         </div>
