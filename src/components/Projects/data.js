@@ -8,7 +8,7 @@ export const projectData = [
         description: 'An online bike shop where you can select and buy products. Add it to cart, place an order and pay through Paypal. The goal of this project is to imitate e-commerce platform like Amazon.',
         image: imageOne,
         techStack: 'ReactJS, NodeJS, Express, MongoDB, Redux, Axios, Filebase64',
-        link: 'https://lit-harbor-78554.herokuapp.com'
+        link: 'https://premium-bikes.herokuapp.com/'
     },
     {
         id: 2,
