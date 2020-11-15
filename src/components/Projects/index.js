@@ -13,7 +13,7 @@ function Projects() {
                         <div className="project-header">
                             <h4><a href={project.link}>{project.title}</a></h4>
                             <p>{project.description}</p>
-                            
+                            <p>{project.note}</p>
                             <p>
                                 LIVE DEMO: 
                                 <a href={project.link}> {project.link}</a>

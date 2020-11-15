@@ -14,8 +14,9 @@ export const projectData = [
         id: 2,
         title: 'Record Management System',
         description: 'Applicable for small businesses to easily manage, store and retrieve data from their clients, employees, and other stakeholders. Other feature includes QR Code generator.',
+        note: 'Author\'s Note: This is a free deployment by Heroku and installing add-ons like MySQL database needs additional requirements. Hence, the link below has no back-end functions.',
         image: imageTwo,
         techStack: 'HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, SQL',
-        link: 'http://rms.infinityfreeapp.com/'
+        link: 'https://rms-qrcode.herokuapp.com/'
     }
 ]
