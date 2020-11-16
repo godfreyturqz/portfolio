@@ -1,5 +1,6 @@
 import imageOne from "../images/001/1.png";
 import imageTwo from "../images/002/1.png";
+import imageThree from "../images/003/1.png";
 
 export const projectData = [
     {
@@ -18,5 +19,13 @@ export const projectData = [
         image: imageTwo,
         techStack: 'HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, SQL',
         link: 'https://rms-qrcode.herokuapp.com/'
+    },
+    {
+        id: 3,
+        title: 'Business Landing Page',
+        description: 'Templates for business landing pages with reusable components.',
+        image: imageThree,
+        techStack: 'HTML, Styled-Components, ReactJS, React-Scroll',
+        link: 'https://homebuild.netlify.app/'
     }
 ]
