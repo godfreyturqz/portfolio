@@ -1,17 +1,22 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './styles.css'
 import { projectData } from "./data";
+import aos from 'aos'
+import 'aos/dist/aos.css'
 
 function Projects() {
+    useEffect(()=> {
+        aos.init({ duration: 1000})
+    }, [])
     return (
         <div >
             <p className="projects-header">Here are some of my works:</p>
             {
                 projectData.map( project => 
                 
-                    <div className="project" key={project.id}>
-                        <div className="project-header">
-                            <h4><a href={project.link}>{project.title}</a></h4>
+                    <div className="project" key={project.id} data-aos="fade-left">
+                        <div className="project-header" >
+                            <h4 ><a href={project.link}>{project.title}</a></h4>
                             <p>{project.description}</p>
                             <p>{project.note}</p>
                             <p>
