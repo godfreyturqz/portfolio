@@ -1,6 +1,7 @@
 import imageOne from "../images/001/1.png";
 import imageTwo from "../images/002/1.png";
 import imageThree from "../images/003/1.png";
+import imageFour from "../images/004/1.png";
 
 export const projectData = [
     {
@@ -23,9 +24,17 @@ export const projectData = [
     {
         id: 3,
         title: 'Business Landing Page',
-        description: 'Templates for business landing pages with reusable components.',
+        description: 'Templates for business landing pages. Fully responsive and with reusable components.',
         image: imageThree,
         techStack: 'HTML, Styled-Components, ReactJS, React-Scroll',
         link: 'https://homebuild.netlify.app/'
+    },
+    {
+        id: 4,
+        title: 'Logitech G502 Website Clone',
+        description: 'Logitech landing page clone. Fully responsive and with reusable components.',
+        image: imageFour,
+        techStack: 'HTML, CSS, ReactJS, React-Scroll',
+        link: 'https://logitech502.netlify.app/'
     }
 ]
