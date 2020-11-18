@@ -9,7 +9,7 @@ function Header() {
         aos.init({ duration: 1500})
     }, [])
     return (
-        <div className="header" data-aos="fade-left">
+        <div className="header" data-aos="fade-down">
             <h3>{headerData.first}</h3>
             <h1>{headerData.heading}</h1>
             <p>{headerData.second}</p>

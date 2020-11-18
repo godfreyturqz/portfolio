@@ -14,7 +14,7 @@ function Projects() {
             {
                 projectData.map( project => 
                 
-                    <div className="project" key={project.id} data-aos="fade-left">
+                    <div className="project" key={project.id} data-aos="fade-up">
                         <div className="project-header" >
                             <h4 ><a href={project.link}>{project.title}</a></h4>
                             <p>{project.description}</p>
