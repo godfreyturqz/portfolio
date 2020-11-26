@@ -2,6 +2,7 @@ import imageOne from "../images/001/1.png";
 import imageTwo from "../images/002/1.png";
 import imageThree from "../images/003/1.png";
 import imageFour from "../images/004/1.png";
+import imageFive from "../images/005/1.png";
 
 export const projectData = [
     {
@@ -36,5 +37,13 @@ export const projectData = [
         image: imageFour,
         techStack: 'HTML, CSS, ReactJS, React-Scroll',
         link: 'https://logitech502.netlify.app/'
+    },
+    {
+        id: 5,
+        title: 'URL shortener',
+        description: 'Free URL shortener to create the perfect short URLs for your business. It helps you shorten, create and share branded links with custom domains at scale.',
+        image: imageFive,
+        techStack: 'NodeJS, Express, MongoDB, EJS',
+        link: 'https://c-url.herokuapp.com/'
     }
 ]
