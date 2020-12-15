@@ -6,7 +6,9 @@ import Header from "./components/Header";
 import Projects from './components/Projects';
 
 function App() {
+  const isMaintenance = true
   return (
+    isMaintenance ? <div style={{"color":"#fff"}}>Site under maintenance</div> :
     <div className="app">
       <DisplayPhoto className="photo"/>
       <Header className="header"/>
@@ -14,6 +16,7 @@ function App() {
       <Projects className="projects"/>
       <Footer className="footer"/>
     </div>
+
   );
 }
 
