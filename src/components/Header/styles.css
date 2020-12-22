@@ -1,23 +1,32 @@
 .header{
     background: var(--container-bg);
     padding: var(--container-padding);
-    margin: 5px var(--container-margin);
+    margin: 5px 0;
     border-radius: var(--border-radius);
-    max-width: var(--container-max-width);
+    width: 100%;
 }
-
 .header h1{
     color: var(--text-primary);
     padding-bottom: 20px;
 }
 .header h3{
     color: var(--text-secondary);
-    padding-bottom: 20px;
     font-weight: 400;
 }
-
 .header p{
-    color: #FFF;
+    color: rgb(218, 218, 218);
     padding-bottom: 20px;
     line-height: 1.5;
+}
+.header-top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.photo {
+    width: 100px;
+    margin-right: 20px;
+}
+.photo img{
+    width: 100%;
 }

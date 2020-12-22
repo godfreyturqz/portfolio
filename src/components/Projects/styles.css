@@ -1,43 +1,36 @@
-a{
-    text-decoration: none;
-    color: var(--text-secondary);
-}
-a:hover{
-    color: #FFF;
-}
 .projects-header{
     color: var(--text-secondary);
     padding: var(--container-padding);
     font-size: 24px;
 }
-.project{
-    background: var(--container-bg);
-    padding: 0px;
-    margin: 20px var(--container-margin);
-    border-radius: var(--border-radius);
+.project-card{
     max-width: var(--container-max-width);
+    width: 100%;
+    background: var(--container-bg);
+    margin: 10px 0;
+    border-radius: var(--border-radius);
     border-top: 5px solid var(--text-secondary);
 }
-.project:hover{
+.project-card:hover{
     border-top: 5px solid var(--text-primary);
     transition: all .4s ease-in-out;
 }
-.project .project-header, .project .project-footer{
+.project-header, .project-footer{
     padding: var(--container-padding);
 }
-.project .project-header h4{
+.project-header h4{
     color: var(--text-secondary);
     padding-bottom: 20px;
 }
-.project .project-header p, .project .project-footer p{
+.project-header p, .project-footer p{
     color: var(--text-secondary);
     padding-bottom: 20px;
     line-height: 1.3;
 }
-.project img{
+.project-card a img{
     width: 100%;
 }
-.project .project-footer p{
+.project-footer p{
     color: #74AAB0;
     padding-bottom: 20px;
 }

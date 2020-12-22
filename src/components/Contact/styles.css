@@ -3,14 +3,7 @@
     padding: var(--container-padding);
     margin: 5px var(--container-margin);
     border-radius: var(--border-radius);
-    width: var(--container-max-width);
-}
-@media screen and (min-width: 768px){
-    .contact{
-        /* same width with dp container */
-        width: 250px;
-        height: max-content;
-    }
+    width: 100%;
 }
 .contact h4{
     color: var(--text-primary);

@@ -7,8 +7,8 @@ function Contact() {
         <div className="contact">
             <h4>Email address</h4>
             <p>godfreyturqz@gmail.com</p>
-            <h4>Contact no.</h4>
-            <p>0926 - 032 - 9024</p>
+            {/* <h4>Contact no.</h4> */}
+            {/* <p>0926 - 032 - 9024</p> */}
             <h4>Address</h4>
             <p>Mabalacat, Pampanga, Philippines</p>
             <h4>Professional Profile</h4>

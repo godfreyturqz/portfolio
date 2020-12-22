@@ -1,0 +1,19 @@
+.navbar-container{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background: var(--text-secondary);
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-wrapper{
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+.navbar-wrapper h2{
+    color: #13293D;
+}

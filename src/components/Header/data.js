@@ -1,6 +1,9 @@
 export const headerData = {
     heading: 'Hi! I\'m Godfrey Turqueza',
-    first: 'Self-taught Developer | Electrical Engineer',
-    second: 'I\'m a licensed Electrical Engineer in the Philippines and I\'m currently looking for a part-time role in Web Development. Having an engineering background, one of my strengths are solving complex math, logic and algorithm problems.',
-    third: ' My current skill set are the following: HTML, CSS, Bootstrap, JavaScript, jQuery, React, Redux, Node, Express, MongoDB, PHP, SQL. I\'m also familiar with PHP-Laravel framework.'
+    subHeading: 'Full-Stack Web Developer | Electrical Engineer',
+    p1: 'I\'m a licensed Electrical Engineer and a WebDev hobbyist. Having an engineering background, one of my strengths are solving complex Math and Algorithm problems.',
+    p2: 'Some of the language and technologies I\'ve used are the following:',
+    p3: 'React, Redux, Node, Express, MongoDB and PHP. I\'m also familiar with Laravel framework.'
 }
+
+export const imageUrl = 'https://res.cloudinary.com/de0tuzprx/image/upload/v1608645487/CC_20200624_162144_ojc24a.png'

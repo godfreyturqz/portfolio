@@ -9,7 +9,6 @@
 body {
     background:#13293D;
 }
-
 :root {
     --container-bg: #204566;
     --container-padding: 20px;
@@ -17,41 +16,22 @@ body {
     --text-primary: #63C132;
     --text-secondary: #BFD8DB;
     --border-radius: 5px;
-    --container-max-width: 550px;
+    --container-max-width: 700px;
 }
-.app{
+a {
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+a:hover {
+    color: #FFF;
+}
+.main{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
 }
-@media screen and (min-width: 768px){
-    .app{
-        display: grid;
-        grid-template-areas: 
-        "photo header"
-        "contact projects"
-        "footer footer"
-        ;
-        justify-content: stretch;
-    }
-    .photo{
-        grid-area: photo;
-        justify-self: end;
-    }
-    .header{
-        grid-area: header;
-    }
-    .contact{
-        grid-area: contact;
-        position: sticky;
-        top: 20px;
-        justify-self: end;
-    }
-    .projects{
-        grid-area: projects;
-    }
-    .footer{
-        grid-area: footer;
-    }
+.header, .contact{
+    max-width: var(--container-max-width);
+    /* border: 1px solid red; */
 }
