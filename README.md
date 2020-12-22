@@ -1,2 +1,2 @@
 # portfolio
-https://godfrey-turqueza.netlify.app/
+https://godfreyturqueza.netlify.app/
