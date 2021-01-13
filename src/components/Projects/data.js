@@ -1,15 +1,9 @@
-import imageOne from "../images/001/1.png";
-import imageTwo from "../images/002/1.png";
-import imageThree from "../images/003/1.png";
-import imageFour from "../images/004/1.png";
-import imageFive from "../images/005/1.png";
-
 export const projectData = [
     {
         id: 1,
         title: 'E-Commerce',
         description: 'An online bike shop where you can select and buy products. Add it to cart, place an order and pay through Paypal. The goal of this project is to imitate e-commerce platform like Amazon.',
-        image: imageOne,
+        image: 'https://res.cloudinary.com/de0tuzprx/image/upload/v1610533095/portfolio/1_m3q1um.png',
         techStack: 'React, Node, Express, MongoDB, Redux, Redux-Thunk, React-router-dom, Axios, Cloudinary, Bcrypt, JSON Web Token, Mongoose, Paypal REST SDK',
         link: 'https://premium-bikes.herokuapp.com/'
     },
@@ -18,7 +12,7 @@ export const projectData = [
         title: 'Record Management System',
         description: 'Applicable for small businesses to easily manage, store and retrieve data from their clients, employees, and other stakeholders. Other feature includes QR Code generator.',
         note: 'Author\'s Note: This is a free deployment by Heroku and installing add-ons like MySQL database needs additional requirements. Hence, the link below has no back-end functions.',
-        image: imageTwo,
+        image: 'https://res.cloudinary.com/de0tuzprx/image/upload/v1610533176/portfolio/1_buwbbv.png',
         techStack: 'HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, SQL',
         link: 'https://rms-qrcode.herokuapp.com/'
     },
@@ -26,7 +20,7 @@ export const projectData = [
         id: 3,
         title: 'Business Landing Page',
         description: 'Templates for business landing pages. Fully responsive and with reusable components.',
-        image: imageThree,
+        image: 'https://res.cloudinary.com/de0tuzprx/image/upload/v1610533237/portfolio/1_igdd4n.png',
         techStack: 'HTML, Styled-Components, ReactJS, React-Scroll',
         link: 'https://homebuild.netlify.app/'
     },
@@ -34,7 +28,7 @@ export const projectData = [
         id: 4,
         title: 'Logitech G502 Website Clone',
         description: 'Logitech landing page clone. Fully responsive and with reusable components.',
-        image: imageFour,
+        image: 'https://res.cloudinary.com/de0tuzprx/image/upload/v1610533271/portfolio/1_nxncvn.png',
         techStack: 'HTML, CSS, ReactJS, React-Scroll',
         link: 'https://logitech502.netlify.app/'
     },
@@ -42,7 +36,7 @@ export const projectData = [
         id: 5,
         title: 'URL shortener',
         description: 'Free URL shortener to create the perfect short URLs for your business. It helps you shorten, create and share branded links with custom domains at scale.',
-        image: imageFive,
+        image: 'https://res.cloudinary.com/de0tuzprx/image/upload/v1610533289/portfolio/1_y2jfz5.png',
         techStack: 'NodeJS, Express, MongoDB, EJS',
         link: 'https://c-url.herokuapp.com/'
     }
