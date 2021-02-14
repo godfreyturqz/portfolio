@@ -5,7 +5,7 @@ export const projectData = [
         description: 'An online bike shop where you can select and buy products. Add it to cart, place an order and pay through Paypal. The goal of this project is to imitate e-commerce platform like Amazon.',
         image: 'https://res.cloudinary.com/de0tuzprx/image/upload/v1610533095/portfolio/1_m3q1um.png',
         techStack: 'React, Node, Express, MongoDB, Redux, Redux-Thunk, React-router-dom, Axios, Cloudinary, Bcrypt, JSON Web Token, Mongoose, Paypal REST SDK',
-        link: 'https://premium-bikes.herokuapp.com/'
+        link: 'https://shopbike.netlify.app/'
     },
     {
         id: 2,

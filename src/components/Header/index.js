@@ -9,7 +9,7 @@ function Header() {
         <div className="header" >
             <div className="header-top">
                 <div className="photo">
-                    <img src={imageUrl} alt="me"/>
+                    <img src={imageUrl} alt="me" loading="lazy"/>
                 </div>
                 <h3>{headerData.subHeading}</h3>
             </div>
