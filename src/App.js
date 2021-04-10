@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Header from "./components/Header"
 import Projects from './components/Projects'
 import Navbar from './components/Navbar'
+import Tools from './components/Tools'
 
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
     <>
       <Navbar/>
       <div className="main">
-        <Header className="header"/>
-        <Contact className="contact"/>
-        <Projects className="projects"/>
+        <Header/>
+        <Projects/>
+        <Contact/>
+        <Tools/>
       </div>
       <Footer className="footer"/>
     </>

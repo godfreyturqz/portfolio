@@ -1,0 +1,22 @@
+h1 {
+    color: var(--text-primary);
+}
+.tools-category {
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+.container-icon {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.container-icon .icon {
+    width: 20px;
+}
+.container-icon .icon img{
+    width: 100%;
+}

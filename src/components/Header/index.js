@@ -1,23 +1,25 @@
-import React from 'react'
-import './styles.css'
-import { headerData, imageUrl } from "./data"
+import Container from '../Container'
+import './header.css'
+import { imageUrl } from "./data"
 
 
 function Header() {
-
     return (
-        <div className="header" >
-            <div className="header-top">
-                <div className="photo">
-                    <img src={imageUrl} alt="me" loading="lazy"/>
+        <Container>
+            <div className="header">
+                <div className="header-top">
+                    <div className="photo">
+                        <img src={imageUrl} alt="me" loading="lazy"/>
+                    </div>
+                    <h3>Electrical Engineer | Web Developer</h3>
                 </div>
-                <h3>{headerData.subHeading}</h3>
+                <h1>Hi! I'm Godfrey Turqueza</h1>
+                <p>I'm an Electrical Engineer and a WebDev hobbyist. Interested in software development, web development, automation and other engineering related discipline.</p>
+                <br/>
+                <p>My main programming language is JavaScript but I'm also familiar with PHP and Python.</p>
+                <br/>
             </div>
-            <h1>{headerData.heading}</h1>
-            <p>{headerData.p1}</p>
-            <p>{headerData.p2}</p>
-            <p>{headerData.p3}</p>
-        </div>
+        </Container>
     )
 }
 

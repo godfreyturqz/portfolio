@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import './styles.css'
+import './projects.css'
 import { projectData } from "./data";
 import aos from 'aos'
 import 'aos/dist/aos.css'
@@ -11,7 +11,7 @@ function Projects() {
     }, [])
 
     return (
-        <>
+        <div>
             <p className="projects-header">Here are some of my works:</p>
             { projectData && projectData.map(project => 
                 <div className="project-card" key={project.id} data-aos="fade-up">
@@ -33,7 +33,7 @@ function Projects() {
                     </div>
                 </div>
             )}
-        </>
+        </div>
     )
 }
 
