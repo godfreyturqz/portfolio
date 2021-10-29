@@ -21,9 +21,11 @@ function Projects() {
                         </h4>
                         <p>{project.description}</p>
                         <p>{project.note}</p>
-                        <p>LIVE DEMO: 
-                            <a href={project.link}> {project.link}</a>
-                        </p>
+                        { project.link && 
+                            <p>LIVE DEMO: 
+                                <a href={project.link}> {project.link}</a>
+                            </p>
+                        }
                     </div>
                     <a href={project.link}>
                         <img src={project.image} alt="project"/>

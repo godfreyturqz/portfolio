@@ -38,6 +38,6 @@ export const projectData = [
         description: 'Free URL shortener to create the perfect short URLs for your business. It helps you shorten, create and share branded links with custom domains at scale.',
         image: 'https://res.cloudinary.com/de0tuzprx/image/upload/v1610533289/portfolio/1_y2jfz5.png',
         techStack: 'NodeJS, Express, MongoDB, EJS',
-        link: 'https://c-url.herokuapp.com/'
+        // link: 'https://c-url.herokuapp.com/'
     }
 ]
